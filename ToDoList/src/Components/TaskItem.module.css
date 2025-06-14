@@ -1,0 +1,67 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  border: 2px solid #f39c12;
+  transition: all 0.3s ease;
+  animation: slideIn 0.3s ease-out;
+}
+
+.item:hover {
+  border-color: #e67e22;
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(243, 156, 18, 0.1);
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  accent-color: #e67e22;
+}
+
+.text {
+  flex: 1;
+  font-size: 16px;
+  color: #d35400;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #bdc3c7;
+}
+
+.deleteBtn {
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.deleteBtn:hover {
+  opacity: 1;
+  transform: scale(1.1) rotate(5deg);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
