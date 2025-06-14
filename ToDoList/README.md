@@ -19,7 +19,7 @@ Want to run it on your machine? It’s easy:
 
 ```bash
 # 1. Clone the repo
-git clone  https://github.com/sristi3227/Celebal_summer_Internship_2.git
+git clone  https://github.com/sristi3227/Celebal_summer_Internship_Assignment2.git
 cd ToDoList
 
 # 2. Install the dependencies
